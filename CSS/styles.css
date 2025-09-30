@@ -1,4 +1,3 @@
-
 :root {
     scrollbar-width: none;
 }
@@ -216,8 +215,6 @@ img {
 
 /*------------- Header styles --------------*/
 
-.section {}
-
 .hero-section {
     padding-top: 60px;
     padding-bottom: 50px;
@@ -229,8 +226,6 @@ img {
     align-items: center;
     gap: 28px;
 }
-
-.container {}
 
 .hero-title {
     font-style: bold;
@@ -244,7 +239,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0;
 }
-.hero-actions {}
 
 .hero-btn {
     display: block;
