@@ -44,11 +44,6 @@ img {
     margin-right: auto;
 }
 
-.section {
-    padding-top: 96px;
-    padding-bottom: 96px;
-}
-
 .animate__animated.animate__tada {
     --animate-duration: 2s;
 }
@@ -217,4 +212,54 @@ img {
 .mob-menu-item:hover,
 .mob-menu-item:focus {
     background-color: #7EB101;
+}
+
+/*------------- Header styles --------------*/
+
+.section {}
+
+.hero-section {
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+.container {}
+
+.hero-title {
+    font-style: bold;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0;
+}
+.hero-actions {}
+
+.hero-btn {
+    display: block;
+    padding: 6px 18px;
+    min-width: 98px;
+    transform: rotate(0deg);
+    border-radius: 30px;
+    background: rgba(187, 243, 48, 1);
+    border: none;
+    margin-right: auto;
+
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 150%;
+    letter-spacing: 0;
+    text-align: right;
 }
